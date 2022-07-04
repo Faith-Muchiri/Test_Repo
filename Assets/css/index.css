@@ -32,6 +32,7 @@ h1{
   width: 100%;
   background-color: #FAFAFA;
   box-shadow: #FAFAFA;
+  max-width: fit-content;
 }
 .navbar h3{
     float:left;
@@ -81,6 +82,7 @@ h1{
   .container button{
     background-color: #2549D3;
     color: white;
+    padding: 5px;
   }
   img {
     max-width: 100%
@@ -105,9 +107,15 @@ h1{
     position: absolute;
     background-color: #f1f1f1;
     color: black;
-    padding: 12px 16px;
+    padding: 10px 12px;
     text-decoration: none;
     display: flex;
+    max-width: fit-content;
+  }
+  .dropdown button{
+    background-color: #2549D3;
+    color: white;
+    padding: 5px;
   }
 .product h1{
   float:right;
@@ -157,8 +165,6 @@ h1{
   }
   .footer {
     display: flex;
-    padding: 20px; 
-    text-align: center; 
     background: #2549D3; 
   }
 
