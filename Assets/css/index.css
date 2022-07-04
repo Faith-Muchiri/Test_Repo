@@ -18,20 +18,21 @@ h1{
     margin-left:5px;
     margin-right:5px;
 }
+.navbar{
+  display: flex;
+  width: 100%;
+}
 .navbar h2{
     float:left
 }
 
 .navbar ul {
+  display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #FAFAFA;
-  }
-  
-.navbar li {
-    justify-content: center;
   }
   
 .navbar li a {
