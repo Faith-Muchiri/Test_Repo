@@ -1,11 +1,17 @@
 /* Style the top navigation bar */
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px, 20px, 0px, 20px;
     /* font-family: Space Grotesk, Oleo Script; */
     font-style: Space Grotesk, Oleo Script;
     border-style: none;
     border-width: 5px;
+}
+img{
+  border: aliceblue;
+  border-width: 5px;
+  margin: 10px 10px;
+ 
 }
 body{
     background-color: #FAFAFA;
@@ -22,9 +28,9 @@ h1{
   display: flex;
   width: 100%;
   background-color: #FAFAFA;
-  box-shadow: inset;
+  box-shadow: #FAFAFA;
 }
-.navbar h2{
+.navbar h3{
     float:left
 }
 
