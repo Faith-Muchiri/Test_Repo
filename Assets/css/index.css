@@ -1,7 +1,7 @@
 /* Style the top navigation bar */
 *{
     padding: 0;
-    margin: 0px, 20px, 0px, 20px;
+    margin: 0px, 50px, 0px, 50px;
     /* font-family: Space Grotesk, Oleo Script; */
     font-style: Space Grotesk, Oleo Script;
     border-style: none;
@@ -135,13 +135,14 @@ h1{
     text-align: center;
 }
   .customer{
-    float: left;
-    width: 33.33%;
+    display: flex;
     border: none;
     background-color: white;
-    max-width: 33.33%;
+    
   }
-  
+  .Property{
+    text-align: center;
+  }
   /* Clear floats after the columns */
   .Esteemed-Customers:after {
     content: "";
@@ -155,14 +156,12 @@ h1{
     margin: 20px 20px;
   }
   .footer {
+    display: flex;
     padding: 20px; 
     text-align: center; 
     background: #2549D3; 
   }
-  .feedback{
-    float: left;
-    width: 25%;
-  }
+
   
   /* Clear floats after the columns */
   .footer:after {
