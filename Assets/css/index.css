@@ -31,7 +31,7 @@ h1{
   }
   
 .navbar li {
-    float: left;
+    justify-content: center;
   }
   
 .navbar li a {
